@@ -62,10 +62,10 @@ export default function Navbar() {
           </>
         ) : (
           <>
-            <Link href="/auth/login" style={{ marginRight: "1rem", textDecoration: "none", color: "#0070f3" }}>
+            <Link href="/auth/login" style={{ marginRight: "1rem", textDecoration: "none", color: "white" }}>
               Login
             </Link>
-            <Link href="/auth/register" style={{ textDecoration: "none", color: "#0070f3" }}>
+            <Link href="/auth/register" style={{ textDecoration: "none", color: "white" }}>
               Register
             </Link>
           </>
